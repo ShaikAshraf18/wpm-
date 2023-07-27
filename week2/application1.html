@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APPLICATION FORM</title>
+    <style>
+        body{
+            margin:250px;
+            justify-content: :center;
+            align-item:center;
+            text-align:center;
+            flex-direction:column;
+            border: 2px solid black;
+            width:150px;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <h3 style="text-align: center;">STUDENT APPLICATION</h3>
+    <form action="/backend.php">
+        <div>
+            <label for="name">Name of the student:</label>
+            <input type="text" id="name" name="myage">
+        </div>
+        <div>
+            <label for="age">AGE</label>
+            <input type="text" id="age" name="myage">
+        </div>
+        <div>
+            <label for="father">FATHER NAME:</label>
+            <input type="text" id="father" name="myfather">
+        </div>
+        <div>
+            <label for="mothername">MOTHER NAME:</label>
+            <input type="text" id="mothername" name="mymother">
+        </div>
+        <div>
+            GENDER:<label for="male">MALE</label>
+            <input type="radio" id="male" name="Gender">
+            <label for="Female">Female</label>
+            <input type="radio" id="female" name="Gender">
+            
+        </div>
+        <div>
+            <label for="address">ADDRESS:</label>
+            <input type="textarea" id="address" name="myaddress",cols='40',rows='7'>
+        </div>
+
+        <div>
+            <label for="mobile">MOBILE NO:</label>
+            <input type="text" id="mobile" name="mymobile">
+        </div>
+        <div>
+            <label for="submits"></label>
+            <input type="submit" id="sub,its" >
+            <label for="resets"></label>
+            <input type="reset" id="resets">
+            
+        </div>
+    </form>
+</body>
+</html>
